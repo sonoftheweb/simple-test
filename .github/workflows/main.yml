@@ -23,4 +23,4 @@
              aws-region: us-east-1
          - name: Deploy app
            run: |
-             pnpm sst deploy
+             npm sst deploy
