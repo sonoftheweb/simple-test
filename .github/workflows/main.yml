@@ -26,4 +26,4 @@
             ls -la
             npm install
             ls -la
-            npx sst deploy prod
+            npx sst deploy --stage prod
