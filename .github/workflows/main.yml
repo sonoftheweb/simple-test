@@ -23,5 +23,6 @@
              aws-region: us-east-1
          - name: Deploy app
            run: |
+            ls -la
             npm install
-            npm sst deploy
+            npx sst deploy prod
