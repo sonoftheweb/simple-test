@@ -23,4 +23,4 @@
              aws-region: us-east-1
          - name: Deploy app
            run: |
-             npm sst deploy
+             cd rest-api && npm sst deploy
